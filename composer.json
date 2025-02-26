@@ -1,5 +1,5 @@
 {
-    "name": "phpgangsta/googleauthenticator",
+    "name": "khoosys/googleauthenticator",
     "description": "Google Authenticator 2-factor authentication",
     "version": "1.0.0",
     "type": "library",
@@ -11,17 +11,23 @@
             "email": "info@phpgangsta.de",
             "homepage": "http://www.phpgangsta.de/",
             "role": "Developer"
+        },
+        {
+            "name": "Stephen Khoo",
+            "email": "stephen@khoosys.net",
+            "homepage": "http://www.khoosys.net/",
+            "role": "Developer"
         }
     ],
     "support": {
-        "source": "https://github.com/PHPGangsta/GoogleAuthenticator",
-        "issues": "https://github.com/PHPGangsta/GoogleAuthenticator/issues"
+        "source": "https://github.com/khoosys/GoogleAuthenticator",
+        "issues": "https://github.com/khoosys/GoogleAuthenticator/issues"
     },
     "require": {
-        "php": ">=5.3"
+        "php": ">=8.2"
     },
 	"autoload": {
-		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
+		"classmap": ["khoosys/GoogleAuthenticator.php"]
 	}
 }
 
