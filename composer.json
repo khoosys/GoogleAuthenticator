@@ -27,7 +27,7 @@
         "php": ">=8.2"
     },
 	"autoload": {
-		"classmap": ["khoosys/GoogleAuthenticator.php"]
+		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
 	}
 }
 
