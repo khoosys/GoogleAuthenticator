@@ -82,7 +82,7 @@ class PHPGangsta_GoogleAuthenticator
     {
         $width = max((int) ($params['width'] ?? 200), 1);
         $height = max((int) ($params['height'] ?? 200), 1);
-        $level = in_array($params['level'] ?? 'M', ['L', 'M', 'Q', 'H']) ? $params['level'] : 'M';
+        $level = (isset($params['level']) && in_array($params['level'], ['L', 'M', 'Q', 'H'])) ? $params['level'] : 'M';
 
         $data = "otpauth://totp/" . urlencode($name) . "?secret=" . urlencode($secret);
         if ($title !== null) {
